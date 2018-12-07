@@ -41,7 +41,7 @@ void mazeTraversal(array< array< char, MAZE_SIZE >, MAZE_SIZE >& maze, int xStar
     vector<string> exitStored;
 
     if (maze[xStart][yStart] == '.') {
-        cout << "Ausgang " << exitCounter + 1 << " bei X: " << xStart << " Y: " << yStart << "\n";
+        cout << "Ausgang " << exitCounter + 1 << " bei X: " << yStart << " Y: " << xStart << "\n";
         exitCounter++;
         cin.ignore();
     }

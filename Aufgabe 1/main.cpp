@@ -56,7 +56,7 @@ int main() {
     }
 
 
-    cout << "Würfe\tGewonnen\tVerloren\tChance" << endl;
+    cout << "Wuerfe\tGewonnen\tVerloren\tChance" << endl;
 
     for (unsigned int i = 0; i < 100; i++) {
         unsigned int won = wlTotal[i][0];
@@ -71,7 +71,7 @@ int main() {
     }
 
     averageGameLength = ceil(static_cast<double>(totalRolls) / static_cast<double>(iterations));
-    cout << "\nIn " << iterations << " Spielen wird durchschnittlich " << averageGameLength << " Mal gewürfelt.\n";
+    cout << "\nIn " << iterations << " Spielen wird durchschnittlich " << averageGameLength << " Mal gewuerfelt.\n";
 
     return 0;
 }
